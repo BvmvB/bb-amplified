@@ -1,0 +1,9 @@
+input AMPLIFY {
+  globalAuthRule: AuthRule = { allow: public }
+}
+
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+}
